@@ -185,6 +185,7 @@ a10.onclick = () => {
     pb2.innerHTML = 'степінь';
     pb3.innerHTML = '';
     pb1.innerHTML = 'цифра';
+    p3.innerHTML = '';
 }
 a11.onclick = () => {
     btn2.style.display = 'none';
@@ -206,6 +207,7 @@ a11.onclick = () => {
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     pb1.innerHTML = 'цифра';
+    p3.innerHTML = '';
 }
 a1.onclick = () => {
     btn2.style.display = 'none';
@@ -227,6 +229,7 @@ a1.onclick = () => {
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     pb1.innerHTML = 'Радіус';
+    p3.innerHTML = '';
 }
 a2.onclick = () => {
     btn2.style.display = 'none';
@@ -248,6 +251,7 @@ a2.onclick = () => {
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     pb1.innerHTML = 'Довжина сторони';
+    p3.innerHTML = '';
 }
 a3.onclick = () => {
     btn2.style.display = 'none';
@@ -269,6 +273,7 @@ a3.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'Довжина першої сторони';
     pb2.innerHTML = 'Довжина другої сторони';
+    p3.innerHTML = '';
 }
 a4.onclick = () => {
     btn2.style.display = 'none';
@@ -290,6 +295,7 @@ a4.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'Довжина грані';
     inp3.style.display = 'none';
+    p3.innerHTML = '';
 }
 a5.onclick = () => {
     btn2.style.display = 'none';
@@ -311,6 +317,7 @@ a5.onclick = () => {
     inp1.style.display = 'block';
     inp2.style.display = 'none';
     inp3.style.display = 'none';
+    p3.innerHTML = '';
 }
 a6.onclick = () => {
     btn2.style.display = 'none';
@@ -332,6 +339,7 @@ a6.onclick = () => {
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
+    p3.innerHTML = '';
 }
 a7.onclick = () => {
     btn2.style.display = 'none';
@@ -353,6 +361,7 @@ a7.onclick = () => {
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
+    p3.innerHTML = '';
 }
 a8.onclick = () => {
     btn2.style.display = 'block';
@@ -374,6 +383,7 @@ a8.onclick = () => {
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
+    p3.innerHTML = '';
 }
 a9.onclick = () => {
     btn2.style.display = 'none';
@@ -395,6 +405,7 @@ a9.onclick = () => {
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
+    p3.innerHTML = '';
 }
 
 calca.onclick = () => {
@@ -417,4 +428,5 @@ calca.onclick = () => {
     inp1.style.display = 'none';
     inp2.style.display = 'none';
     inp3.style.display = 'none';
+    p3.innerHTML = '';
 }
