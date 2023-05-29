@@ -109,7 +109,7 @@ btn8.onclick = () => {
 const btn9 = document.querySelector('.btn-9')
 
 btn9.onclick = () => {
-    p3.innerHTML = '1% = ' + inp1 / 100;
+    p3.innerHTML = '1% = ' + inp1.value / +100;
 }
 
 // --------------seredne---------------
@@ -129,6 +129,8 @@ btn10Plus.onclick = () => {
 btn10.onclick = function calculateAverage() {
     p3.innerHTML = bPvar / bPlen;
 }
+// -----------------cos a---------------------
+
 
 // ----------------figna bobra------------------
 const a10 = document.querySelector('.a-10')
@@ -186,6 +188,7 @@ a10.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'цифра';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a11.onclick = () => {
     btn2.style.display = 'none';
@@ -208,6 +211,7 @@ a11.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'цифра';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a1.onclick = () => {
     btn2.style.display = 'none';
@@ -230,6 +234,7 @@ a1.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'Радіус';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a2.onclick = () => {
     btn2.style.display = 'none';
@@ -252,6 +257,7 @@ a2.onclick = () => {
     pb3.innerHTML = '';
     pb1.innerHTML = 'Довжина сторони';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a3.onclick = () => {
     btn2.style.display = 'none';
@@ -274,6 +280,7 @@ a3.onclick = () => {
     pb1.innerHTML = 'Довжина першої сторони';
     pb2.innerHTML = 'Довжина другої сторони';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a4.onclick = () => {
     btn2.style.display = 'none';
@@ -296,6 +303,7 @@ a4.onclick = () => {
     pb1.innerHTML = 'Довжина грані';
     inp3.style.display = 'none';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a5.onclick = () => {
     btn2.style.display = 'none';
@@ -311,13 +319,14 @@ a5.onclick = () => {
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
     calc.style.display = 'none';
-    pb1.innerHTML = '';
+    pb1.innerHTML = 'радіус';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     inp1.style.display = 'block';
     inp2.style.display = 'none';
     inp3.style.display = 'none';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a6.onclick = () => {
     btn2.style.display = 'none';
@@ -333,13 +342,14 @@ a6.onclick = () => {
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
     calc.style.display = 'none';
-    pb1.innerHTML = '';
+    pb1.innerHTML = 'ціле число';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     inp1.style.display = 'block';
-    inp2.style.display = 'block';
-    inp3.style.display = 'block';
+    inp2.style.display = 'none';
+    inp3.style.display = 'none';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a7.onclick = () => {
     btn2.style.display = 'none';
@@ -355,13 +365,14 @@ a7.onclick = () => {
     step.style.display = 'none';
     btn10Plus.style.display = 'block';
     calc.style.display = 'none';
-    pb1.innerHTML = '';
+    pb1.innerHTML = 'список чисел по черзі';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
     inp1.style.display = 'block';
-    inp2.style.display = 'block';
-    inp3.style.display = 'block';
+    inp2.style.display = 'none';
+    inp3.style.display = 'none';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a8.onclick = () => {
     btn2.style.display = 'block';
@@ -377,13 +388,14 @@ a8.onclick = () => {
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
     calc.style.display = 'none';
-    pb1.innerHTML = '';
-    pb2.innerHTML = '';
-    pb3.innerHTML = '';
+    pb1.innerHTML = 'х^2';
+    pb2.innerHTML = 'b';
+    pb3.innerHTML = 'c';
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 a9.onclick = () => {
     btn2.style.display = 'none';
@@ -399,13 +411,14 @@ a9.onclick = () => {
     btn10.style.display = 'none';
     btn10Plus.style.display = 'none';
     calc.style.display = 'none';
-    pb1.innerHTML = '';
-    pb2.innerHTML = '';
-    pb3.innerHTML = '';
+    pb1.innerHTML = 'швидкість';
+    pb2.innerHTML = 'час';
+    pb3.innerHTML = 'відстань';
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'block';
     p3.innerHTML = '';
+    p3.style.display = 'block';
 }
 
 calca.onclick = () => {
@@ -429,4 +442,5 @@ calca.onclick = () => {
     inp2.style.display = 'none';
     inp3.style.display = 'none';
     p3.innerHTML = '';
+    p3.style.display = 'none';
 }

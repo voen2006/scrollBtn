@@ -2,6 +2,49 @@ body {
     background-image: radial-gradient(circle, #dc711a, #d06b19, #c46517, #b85f16, #ac5915);
 }
 
+.pb-1 {
+    color: #DEDEDE;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.pb-2 {
+    color: #DEDEDE;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.pb-3 {
+    color: #DEDEDE;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.sd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.p2b {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.p-2 {
+    background-color: #DFE0DF;
+    width: 300px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    height: 50px;
+    border-radius: 10px;
+    display: none;
+
+}
+
 button {
     background-color: #402E32;
     box-shadow: 0px 5px 0px #22191b;
@@ -52,9 +95,11 @@ button:active {
     border-radius: 10px;
     box-sizing: border-box;
 }
-.btn-calc{
+
+.btn-calc {
     color: #DEDEDE;
 }
+
 .sd>button {
     width: 300px;
 }
@@ -82,12 +127,15 @@ button:active {
 .btn-6 {
     display: none;
 }
-.koren{
+
+.koren {
     display: none;
 }
-.step{
+
+.step {
     display: none;
 }
+
 .btn-7 {
     display: none;
 }
