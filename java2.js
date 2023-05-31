@@ -129,7 +129,31 @@ btn10Plus.onclick = () => {
 btn10.onclick = function calculateAverage() {
     p3.innerHTML = bPvar / bPlen;
 }
-// -----------------cos a---------------------
+// -----------------Amper---------------------
+const btn11 = document.querySelector('.btn-11')
+// inp 1 = amper inp2 = volt inp 3 = soproytiv
+
+btn11.onclick = () => {
+    if (inp1.value == '') {
+        p3.innerHTML = inp2.value / inp3.value + 'A';
+    }
+    else if (inp2.value == '') {
+        p3.innerHTML = inp1.value * inp3.value + 'V';
+    }
+    else if (inp3.value == '') {
+        p3.innerHTML = inp2.value / inp1.value + 'Om';
+    }
+    else {
+        p3.innerHTML = "Шо нада?";
+    }
+
+}
+//------------------e = mc2--------------------
+const btn12 = document.querySelector('.btn-12')
+
+btn12.onclick = ()=>{
+    p3.innerHTML = inp1.value * 299792458 + ' Дж';
+}
 
 
 // ----------------figna bobra------------------
@@ -157,6 +181,9 @@ const a6 = document.querySelector('.a-6')
 const a7 = document.querySelector('.a-7')
 const a8 = document.querySelector('.a-8')
 const a9 = document.querySelector('.a-9')
+const a12 = document.querySelector('.a-12')
+const a13 = document.querySelector('.a-13')
+
 
 const calca = document.querySelector('.calc-a')
 const calc = document.querySelector('.calculator')
@@ -166,7 +193,56 @@ let pb3 = document.querySelector('.pb-3')
 
 
 
-
+a13.onclick = () => {
+    btn2.style.display = 'none';
+    btn3.style.display = 'none';
+    btn4.style.display = 'none';
+    btn5.style.display = 'none';
+    btn6.style.display = 'none';
+    btn7.style.display = 'none';
+    btn8.style.display = 'none';
+    koren.style.display = 'none';
+    step.style.display = 'none';
+    btn9.style.display = 'none';
+    btn10.style.display = 'none';
+    btn10Plus.style.display = 'none';
+    calc.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'block';
+    inp1.style.display = 'block';
+    inp2.style.display = 'none';
+    inp3.style.display = 'none';
+    pb2.innerHTML = '';
+    pb3.innerHTML = '';
+    pb1.innerHTML = 'маса';
+    p3.innerHTML = '';
+    p3.style.display = 'block';
+}
+a12.onclick = () => {
+    btn2.style.display = 'none';
+    btn3.style.display = 'none';
+    btn4.style.display = 'none';
+    btn5.style.display = 'none';
+    btn6.style.display = 'none';
+    btn7.style.display = 'none';
+    btn8.style.display = 'none';
+    koren.style.display = 'none';
+    step.style.display = 'none';
+    btn9.style.display = 'none';
+    btn10.style.display = 'none';
+    btn10Plus.style.display = 'none';
+    calc.style.display = 'none';
+    btn11.style.display = 'block';
+    btn12.style.display = 'none';
+    inp1.style.display = 'block';
+    inp2.style.display = 'block';
+    inp3.style.display = 'block';
+    pb2.innerHTML = 'вольти';
+    pb3.innerHTML = 'опір';
+    pb1.innerHTML = 'ампери';
+    p3.innerHTML = '';
+    p3.style.display = 'block';
+}
 a10.onclick = () => {
     btn2.style.display = 'none';
     btn3.style.display = 'none';
@@ -181,6 +257,8 @@ a10.onclick = () => {
     btn10.style.display = 'none';
     btn10Plus.style.display = 'none';
     calc.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'none';
@@ -203,6 +281,8 @@ a11.onclick = () => {
     btn9.style.display = 'none';
     btn10.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'none';
@@ -226,13 +306,15 @@ a1.onclick = () => {
     btn9.style.display = 'none';
     btn10.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'none';
     inp3.style.display = 'none';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
-    pb1.innerHTML = 'Радіус';
+    pb1.innerHTML = 'радіус';
     p3.innerHTML = '';
     p3.style.display = 'block';
 }
@@ -249,13 +331,15 @@ a2.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'none';
     inp3.style.display = 'none';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
-    pb1.innerHTML = 'Довжина сторони';
+    pb1.innerHTML = 'довжина сторони';
     p3.innerHTML = '';
     p3.style.display = 'block';
 }
@@ -272,13 +356,15 @@ a3.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'block';
     inp3.style.display = 'none';
     pb3.innerHTML = '';
-    pb1.innerHTML = 'Довжина першої сторони';
-    pb2.innerHTML = 'Довжина другої сторони';
+    pb1.innerHTML = 'довжина першої сторони';
+    pb2.innerHTML = 'довжина другої сторони';
     p3.innerHTML = '';
     p3.style.display = 'block';
 }
@@ -295,12 +381,14 @@ a4.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     inp1.style.display = 'block';
     inp2.style.display = 'none';
     pb2.innerHTML = '';
     pb3.innerHTML = '';
-    pb1.innerHTML = 'Довжина грані';
+    pb1.innerHTML = 'довжина грані';
     inp3.style.display = 'none';
     p3.innerHTML = '';
     p3.style.display = 'block';
@@ -318,6 +406,8 @@ a5.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     pb1.innerHTML = 'радіус';
     pb2.innerHTML = '';
@@ -341,6 +431,8 @@ a6.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     pb1.innerHTML = 'ціле число';
     pb2.innerHTML = '';
@@ -364,6 +456,8 @@ a7.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'block';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     pb1.innerHTML = 'список чисел по черзі';
     pb2.innerHTML = '';
@@ -387,6 +481,8 @@ a8.onclick = () => {
     koren.style.display = 'none';
     step.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     pb1.innerHTML = 'х^2';
     pb2.innerHTML = 'b';
@@ -410,6 +506,8 @@ a9.onclick = () => {
     step.style.display = 'none';
     btn10.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'none';
     pb1.innerHTML = 'швидкість';
     pb2.innerHTML = 'час';
@@ -434,6 +532,8 @@ calca.onclick = () => {
     btn10.style.display = 'none';
     btn9.style.display = 'none';
     btn10Plus.style.display = 'none';
+    btn11.style.display = 'none';
+    btn12.style.display = 'none';
     calc.style.display = 'block';
     pb1.innerHTML = '';
     pb2.innerHTML = '';

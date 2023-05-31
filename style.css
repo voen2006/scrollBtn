@@ -1,37 +1,52 @@
 body {
     background-image: radial-gradient(circle, #dc711a, #d06b19, #c46517, #b85f16, #ac5915);
+
+}
+
+.all {
+    min-height: 100%;
+}
+
+.inp-box {
+    margin-bottom: 50px;
 }
 
 .pb-1 {
     color: #DEDEDE;
     font-weight: 900;
     font-size: 2rem;
+    font-variant: small-caps;
 }
 
 .pb-2 {
     color: #DEDEDE;
     font-weight: 900;
     font-size: 2rem;
+    font-variant: small-caps;
 }
 
 .pb-3 {
     color: #DEDEDE;
     font-weight: 900;
     font-size: 2rem;
+    font-variant: small-caps;
 }
 
 .sd {
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
+
 .p2b {
     display: flex;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
 }
+
 .p-2 {
     background-color: #DFE0DF;
     width: 300px;
@@ -53,11 +68,35 @@ button {
     width: 100px;
     height: 100px;
     margin: 5px 2px;
+    font-variant: small-caps;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 10px;
     transition: 0.3s;
     border: 3px solid #150f11;
+}
+.footer-2{
+    color: #b1b0b0;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.footer-1{
+    color: #b1b0b0;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #22191b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 80px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 button:active {
@@ -113,6 +152,14 @@ button:active {
 }
 
 .btn-3 {
+    display: none;
+}
+
+.btn-11 {
+    display: none;
+}
+
+.btn-12 {
     display: none;
 }
 
